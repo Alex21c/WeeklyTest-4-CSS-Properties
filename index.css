@@ -6,10 +6,6 @@
   list-style-position: inside;
 }
 
-a{
-  text-decoration: none;
-  color:white;
-}
 .displayNone{
   display: none;
 }
@@ -29,10 +25,15 @@ main{
   /* background: yellow; */
   padding-bottom: 5rem;
 }
+a{
+  text-decoration: none;
+  color:white;
+}
 h2,h3{  
   padding:1rem 0;
   /* font-size:2rem; */
 }
+/* Step #1 Made the Hero section with Navbar */
 header{
   background: linear-gradient(#312f2f, #3d3c3c);
   color:white;
@@ -131,6 +132,8 @@ section.hero p{
   font-size: 1.3rem;
 }
 
+/* Step #2: Made the Services section */
+
 section#services div.containerServices{
   display: flex;
   flex-wrap: wrap;
@@ -157,7 +160,7 @@ section#services div.service>img{
   border-radius: 50%; 
 }
 
-
+/* Step #3: Made the About Us section */
 div.infoDiv{
   text-align: center;
   padding:2rem 0;
@@ -167,7 +170,7 @@ div.infoDiv h2{
   padding-bottom:0;
   font-size:2rem;
 }
-
+/* Step #4: Made the Contact Us section */
 div.subWrapperContactUs{
   display: flex;
   /* background-color: lightblue; */
