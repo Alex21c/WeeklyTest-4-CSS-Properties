@@ -88,7 +88,7 @@ section.hero{
   background-size: cover;
 }
 
-section.hero h1{
+section.hero h2{
   font-size: 3.5rem;
 }
 
@@ -103,7 +103,7 @@ section.hero h1{
   z-index: 1;
 }
 
-section.hero h1, section.hero p, section.hero a{
+section.hero h2, section.hero p, section.hero a{
   z-index:99;
 }
 
@@ -198,6 +198,7 @@ div.subWrapperContactUs form a{
   background-color:black;
   padding: .7rem 1.3rem;
   border:1px solid black;
-  width: 10rem;
+  width: 11rem;
   border-radius: 5px;
+  text-align: center;
 }
